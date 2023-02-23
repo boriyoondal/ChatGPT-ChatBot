@@ -14,7 +14,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["@emotion/react/types/css-prop"]
   },
+  "extends": "./tsconfig.paths.json",
   "include": ["src", "postcss.config.js"]
 }
